@@ -1,0 +1,107 @@
+#home {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+#home .intro__inner {
+  max-width: 75%;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#home .timeline {
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#home .timeline .path {
+  fill: transparent;
+  stroke: transparent;
+  stroke-miterlimit: 10;
+}
+#home .timeline .man {
+  width: 150px;
+  height: 150px;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+  fill: none;
+  stroke: #fbf813;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 10px;
+}
+
+.cls-2 {
+  stroke-dasharray: 0 20.11;
+}
+
+.cls-3 {
+  stroke-dasharray: 0 20.69;
+}
+
+.cls-4 {
+  stroke-dasharray: 0 20.12;
+}
+
+.cls-5 {
+  stroke-dasharray: 0 20.35;
+}
+
+.cls-6 {
+  stroke-dasharray: 0 19.85;
+}
+
+.cls-7 {
+  stroke-dasharray: 0 20.07;
+}
+
+.cls-8 {
+  stroke-dasharray: 0 20.14;
+}
+
+.cls-9 {
+  font-size: 107.39px;
+  fill: none;
+  font-family: PFStardustBold, PF Stardust Bold;
+}
+
+.cls-12 {
+  stroke: #0019fd;
+  stroke-miterlimit: 10;
+}
+
+.cls-10,
+.cls-11 {
+  fill: #fff;
+}
+
+.cls-10 {
+  letter-spacing: 0em;
+}
+
+#title__svg {
+  width: 75%;
+  height: 80vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-47%, -58%);
+}
+
+@media (max-width: 767px) {
+  #title__svg {
+    width: 100%;
+  }
+}

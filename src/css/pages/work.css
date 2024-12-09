@@ -1,0 +1,161 @@
+#work {
+  border: 1px solid #000;
+  max-width: 1900px;
+  min-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: var(--mainre-font);
+}
+#work h2 {
+  position: absolute;
+  writing-mode: vertical-rl;
+  rotate: 180deg;
+  top: 10%;
+  z-index: 999;
+}
+#work #work__cursor {
+  max-width: 300px;
+  min-width: 200px;
+  aspect-ratio: 1/0.5;
+  padding: 10px;
+  padding-right: 6%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  color: #fff;
+  display: flex;
+  white-space: pre-line;
+  word-wrap: break-word;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.75;
+  word-spacing: -0.2em;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  position: fixed;
+  left: 0;
+  top: 30%;
+  transform: translate(-50%, calc(-100% - 20px));
+  z-index: 9999;
+  pointer-events: none;
+  transition: 0.35s;
+}
+#work #work__cursor::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  background-size: cover;
+  background-position: center;
+  background-image: var(--cursor-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#work #work__cursor::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 0;
+  margin-left: -20px;
+  margin-bottom: -20px;
+}
+#work .work {
+  border: 3px solid #0000f6;
+  border-radius: 10px;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#work .work #Layer_1 polygon {
+  fill: #424242;
+  cursor: pointer;
+}
+#work .work svg {
+  transform-origin: center center;
+}
+#work .work .clw-12,
+#work .work .clw-15,
+#work .work .clw-17,
+#work .work .clw-2 {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 6px;
+}
+#work .work .clw-2 {
+  stroke: #ea4239;
+}
+#work .work .clw-3 {
+  fill: #fbf813;
+}
+#work .work .clw-4 {
+  fill: #0000f6;
+}
+#work .work .clw-5 {
+  fill: #fafdf6;
+}
+#work .work .clw-6 {
+  fill: #0c19c0;
+}
+#work .work .clw-7 {
+  fill: #f89899;
+}
+#work .work .clw-8 {
+  fill: #6bfdfd;
+}
+#work .work .clw-9 {
+  fill: #fa9d00;
+}
+#work .work .clw-10 {
+  fill: #f6050b;
+}
+#work .work .clw-11,
+#work .work .clw-13 {
+  font-size: 25.61px;
+}
+#work .work .clw-11,
+#work .work .clw-13,
+#work .work .clw-16,
+#work .work .clw-19,
+#work .work .clw-20 {
+  fill: #f2f2f2;
+  font-family: PFStardustBold, PF Stardust Bold;
+}
+#work .work .clw-12 {
+  stroke: #4285fa;
+}
+#work .work .clw-13 {
+  letter-spacing: -0.05em;
+}
+#work .work .clw-14 {
+  letter-spacing: 0em;
+}
+#work .work .clw-15 {
+  stroke: #34a853;
+}
+#work .work .clw-16 {
+  font-size: 25.61px;
+}
+#work .work .clw-17 {
+  stroke: #febe00;
+}
+#work .work .clw-18 {
+  letter-spacing: -0.02em;
+}
+#work .work .clw-19 {
+  font-size: 21.87px;
+}
+#work .work .clw-20 {
+  font-size: 18.26px;
+}

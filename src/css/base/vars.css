@@ -1,0 +1,91 @@
+:root {
+    --mainfl-font: 'PF 3.0';
+    --mainre-font: 'PF 3.0 Bold';
+    --mainkd-font: 'PF 3.0 ExtraBold';
+
+
+    --sublig-font: 'GmarketSansLight';
+    --submed-font: 'GmarketSansMedium';
+    --subbold-font: 'GmarketSansbold';
+
+    --subusb-font: 'Moneygraphy-Pixel';
+    --subusbko-font: 'Moneygraphy-Rounded';
+
+    --font-size-h2: 200px;
+    --font-size-h3: 100px;
+
+    --font-weight-h2: bold;
+
+    --mainBg-color: #000;
+    --maincolor100-color: #fdd;
+    --maincolor200-color: #ffd;
+    --maincolor300-color: rgb(218, 122, 122);
+    --maincolor400-color: rgb(14, 241, 83);
+    --maincolor500-color: rgb(31, 7, 245);
+
+    --subcolor100-color: rgb(31, 7, 245);
+    --subcolor200-color: rgb(31, 7, 245);
+    --subcolor300-color: rgb(31, 7, 245);
+    --subcolor400-color: rgb(31, 7, 245);
+    --subcolor500-color: rgb(31, 7, 245);
+    --subcolor600-color: rgb(31, 7, 245);
+
+    --white: #fff;
+    --black: #000;
+    --black100: #d1d1d1;
+    --black200: #ccc;
+    --black300: #313131;
+
+
+    font-family: var(--mainfl-font), var(--mainre-font), var(--mainkd-font), var(--subsb-font), var(--subsbko-font), var(--sublig-font), var(--submed-font), var(--subbold-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+
+
+}
+
+body {
+    color: var(--white);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+    position: relative;
+}
+
+h2 {
+    -webkit-text-stroke-color: #A1A1A1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-repeat: no-repeat;
+    font-family: var(--mainre-font);
+}
+
+
+@media (max-width:767px) {
+    h2 {
+        font-size: 90px;
+    }
+}
+
+@media (max-width:768px) {
+    h2 {
+        font-size: 120px;
+    }
+}
+
+@media (min-width:1024px) {
+    h2 {
+        font-size: 200px;
+    }
+}
+
+@media (max-width:1440px) {}

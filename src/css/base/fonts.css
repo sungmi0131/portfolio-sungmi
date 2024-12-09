@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'PF 3.0';
+    src: url(./PF3.0.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF 3.0 Bold';
+    src: url(./PF3.0Bold.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF 3.0 ExtraBold';
+    src: url(./PF3.0ExtraBold.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url(./GmarketSansTTFMedium.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansbold';
+    src: url(./GmarketSansTTFBold.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moneygraphy-Pixel';
+    src: url(./Moneygraphy-Pixel.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Moneygraphy-Rounded';
+    src: url(./Moneygraphy-Rounded.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
